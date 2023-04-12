@@ -1,5 +1,14 @@
 # Terraform AWS Custom App
 
+This module will create multiple resources when you want to deploy a new app in AWS and you need to use ECS.
+
+It will create:
+
+* Codecommit repository
+* S3 bucket
+* If you want to use ECS, a Cloudwatch group for your cluster.
+* If you want to use ECS, a Fargate cluster with some custom configuration.
+
 ## Getting started
 
 Example
